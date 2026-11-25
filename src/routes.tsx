@@ -5,6 +5,11 @@ import { DashboardPage } from './pages/DashboardPage'
 import { PricesPage } from './pages/PricesPage'
 import { RecommendationsPage } from './pages/RecommendationsPage'
 import { SettingsPage } from './pages/SettingsPage'
+import { ComponentPreviewPage } from './pages/ComponentPreviewPage'
+
+const developmentRoutes = import.meta.env.DEV
+  ? [{ path: '__preview', element: <ComponentPreviewPage /> }]
+  : []
 
 export const router = createBrowserRouter([
   {
@@ -17,6 +22,7 @@ export const router = createBrowserRouter([
       { path: 'recommendations', element: <RecommendationsPage /> },
       { path: 'appliances', element: <AppliancesPage /> },
       { path: 'settings', element: <SettingsPage /> },
+      ...developmentRoutes,
     ],
   },
 ])
