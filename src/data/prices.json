@@ -1,0 +1,60 @@
+{
+  "today": {
+    "date": "2026-11-26",
+    "points": [
+      { "hour": 0, "price": 2.45 },
+      { "hour": 1, "price": 2.31 },
+      { "hour": 2, "price": 2.18 },
+      { "hour": 3, "price": 1.95 },
+      { "hour": 4, "price": 1.82 },
+      { "hour": 5, "price": 2.05 },
+      { "hour": 6, "price": 2.42 },
+      { "hour": 7, "price": 2.76 },
+      { "hour": 8, "price": 2.61 },
+      { "hour": 9, "price": 2.24 },
+      { "hour": 10, "price": 1.67 },
+      { "hour": 11, "price": 1.22 },
+      { "hour": 12, "price": 0.84 },
+      { "hour": 13, "price": 0.62 },
+      { "hour": 14, "price": 0.45 },
+      { "hour": 15, "price": 0.31 },
+      { "hour": 16, "price": 0.58 },
+      { "hour": 17, "price": 1.13 },
+      { "hour": 18, "price": 1.88 },
+      { "hour": 19, "price": 2.62 },
+      { "hour": 20, "price": 2.91 },
+      { "hour": 21, "price": 2.73 },
+      { "hour": 22, "price": 2.24 },
+      { "hour": 23, "price": 1.86 }
+    ]
+  },
+  "tomorrow": {
+    "date": "2026-11-27",
+    "points": [
+      { "hour": 0, "price": 1.72 },
+      { "hour": 1, "price": 1.48 },
+      { "hour": 2, "price": 1.26 },
+      { "hour": 3, "price": 0.98 },
+      { "hour": 4, "price": 0.74 },
+      { "hour": 5, "price": 0.51 },
+      { "hour": 6, "price": 0.36 },
+      { "hour": 7, "price": 0.22 },
+      { "hour": 8, "price": 0.14 },
+      { "hour": 9, "price": 0.08 },
+      { "hour": 10, "price": -0.04 },
+      { "hour": 11, "price": -0.12 },
+      { "hour": 12, "price": -0.06 },
+      { "hour": 13, "price": 0.09 },
+      { "hour": 14, "price": 0.28 },
+      { "hour": 15, "price": 0.63 },
+      { "hour": 16, "price": 1.17 },
+      { "hour": 17, "price": 1.89 },
+      { "hour": 18, "price": 2.47 },
+      { "hour": 19, "price": 2.71 },
+      { "hour": 20, "price": 2.53 },
+      { "hour": 21, "price": 2.18 },
+      { "hour": 22, "price": 1.94 },
+      { "hour": 23, "price": 1.81 }
+    ]
+  }
+}
